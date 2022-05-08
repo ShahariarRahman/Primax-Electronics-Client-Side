@@ -10,8 +10,9 @@ const ReviewForm = () => {
         toast('Thank you for the review!')
     }
     return (
-        <div className='flex flex-col items-center mx-4 sm:mx-0 w-full'>
-            <div className='bg-white shadow overflow-hidden sm:rounded-lg mt-10 pb-5 w-full'>
+        <div className='flex flex-col items-center mx-4 sm:mx-0 w-fully-5 mt-12'>
+            <h2 className='mb-8 text-3xl font-semibold text-center'>REVIEWS OF SUPPLIER</h2>
+            <div className='bg-white shadow overflow-hidden sm:rounded-lg pb-24 pt-16 px-5 w-full'>
                 <div className="px-4 py-3 sm:px-6 text-center">
                     <h3 className="text-lg font-medium text-gray-900">Supplier Review Form</h3>
                     <p className="mt-1 text-sm text-gray-500">You Don't Need To Log To Send This Form To Us. Just Let Us Know Your Opinion</p>
@@ -23,7 +24,7 @@ const ReviewForm = () => {
                     </div>
                     <div className="bg-white px-4 py-1 grid grid-cols-2">
                         <label htmlFor="opnionDescription" className="text-sm font-medium text-gray-500 flex items-center">If any Query Let Us Know</label>
-                        <textarea className="block w-full px-3 py-2 border placeholder-gray-400 text-gray-700 focus:outline sm:text-sm rounded-md" name="opnionDescription" placeholder="Description Your Query Please....." id="opnionDescription" rows="3" required></textarea>
+                        <textarea className="block w-full px-3 py-2 border placeholder-gray-400 text-gray-700 focus:outline sm:text-sm rounded-md" name="opnionDescription" placeholder="Description Your Query Please....." id="opnionDescription" rows="5" required></textarea>
                     </div>
 
                     <div className="bg-white px-4 py-1 grid grid-cols-2">
