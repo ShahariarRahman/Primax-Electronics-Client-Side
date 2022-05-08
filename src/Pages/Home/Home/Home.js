@@ -5,6 +5,7 @@ import { Link } from 'react-router-dom';
 import useInventory from '../../../hooks/useInventory';
 import Chart from '../Chart/Chart';
 import ReviewForm from '../ReviewForm/ReviewForm';
+import Title from '../Title/Title';
 
 const Home = () => {
     const [inventory] = useInventory();
@@ -28,6 +29,7 @@ const Home = () => {
             <div>
                 <img src={bannar} alt="" />
             </div>
+            <Title></Title>
             <h2 className='mt-20 text-3xl font-semibold'>INVENTORY ({fixedInventory.length})</h2>
             <div className='grid sm:grid-cols-3 gap-7 mt-6 w-full px-3'>
                 {
