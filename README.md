@@ -9,17 +9,18 @@ In inventory there are Smart TV, Refrigerator and Freezer, Microwave, Laptop, Co
 There are multiple Supplier who can supply good for website.
 If anyone want to be a supplier he/she have to make a registration to the website and he/she can store Electronics items. If any Query they can Let Owner by fillup Reviewing Form.
 
-### Features/functionality(5 point):
+### Features/functionality:
 
 * This website is a make for Professional Wedding Photographer. 
+* Homage: Homepage Contain Introduction of website, Top six inventory item  and a  Reviewing Form.
 * Login: In Login page used can log in using Google or Email Password System which secured by JSON Web Token.
 * Registration: In Registration page user can log in using Google or Email Password System which also secured by JSON Web Token.
-* MANAGE ITEMS: All Inventory are shown there in Manage items page.
-* Homage: Homepage Contain Introduction of website, Top six inventory item  and a  Reviewing Form.
-* Services: In Homepage all Service Options are Given.
-* Checkout: After Login/ Registration, People can Fill Up Form if he/she is intersted to hire.
-* Blogs: Blogs Contain Answer of Question Related to firebase Authentication.
-* About: About Contain About My Dream Goal and Some information.
+* Manage items: All Inventory are shown there in manage items page with update and delete functionality.
+* Add a Item: Supplier can additem by giving details Iiformation of product.
+* My Item: All item added by login user will show in that page with update and cancel button and secured by JSON Web Token..
+* Blogs: Blogs Contain Answer of Question Related to nodejs, mongodb, jwt etc.
+* About: About Contain some details information About.
 
 ### Technologies:
-* React, React Router, Firebase, React Firebase Hooks, Tailwind, Font Awesome, React Toastify etc.
+* Client Side: React, React Router, Firebase, React Firebase Hooks, Tailwind, Font Awesome, React Toastify etc.
+* Server Side: mongodb, express.
