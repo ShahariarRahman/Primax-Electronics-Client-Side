@@ -1,7 +1,9 @@
-import React from 'react';
-// import img from '../../images/profile/profile.jpg';
+import React, { useEffect } from 'react';
 
 const About = () => {
+    useEffect(() => {
+        window.scrollTo(0, 0)
+    }, [])
     return (
         <div>
             <div className='flex justify-center mt-2 mx-auto px-4 sm:px-6 lg:px-8 text-gray-800'>
