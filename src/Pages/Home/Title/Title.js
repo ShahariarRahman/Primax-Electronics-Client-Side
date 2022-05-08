@@ -7,7 +7,7 @@ const Title = () => {
             <p className='text-xl text-gray-700 font-light py-3'>We are storing many kind of Electronics items.
                 In Our inventory we have Smart TV, Refrigerator and Freezer, Microwave, Laptop, Computers, Smartphones
                 and Other  Electronics goods. We have many Supplier who supply good for us. If want to be a supplier make a registration to our website and store Electronics items as much as you want.
-                If any Query Let Us Know in Review Form send us details. Thank you for visiting our website..
+                If any Query Let Us Know in Review Form send us details. Thank you for visiting our website.
             </p>
         </div >
     );
