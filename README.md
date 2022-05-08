@@ -1,7 +1,7 @@
 # Project : Primax Electronics
 
-## Client Side Live Server Link: [Firebase Hosting](https://primax-electronics.web.app/)
-## Server Side Live Server Link: [Heroku Hosting](https://primax-electronics.herokuapp.com/)
+## Live Server Link1: [Client Side Firebase Hosting](https://primax-electronics.web.app/)
+## Live Server Link2: [Server Side Heroku Hosting](https://primax-electronics.herokuapp.com/)
 
 ### Short Descriptions:
 This Project store many kind of Electronics items.
