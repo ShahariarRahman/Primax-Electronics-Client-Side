@@ -36,16 +36,17 @@ const Blogs = () => {
                                 <li>1. Sql means structured query language which are called relational Databases</li>
                                 <li>2. Nosql are no declarative query language called as non-relational/distributed database</li>
                                 <li>3. SQL databases are table based databases</li>
-                                <li>4. NoSQL databases are document based, key-value pairs, graph databases</li>
+                                <li>4. Nosql databases are document based, key-value pairs, graph databases</li>
+                                <li>5. Sql are not suitable for hierarchical data to storage.</li>
+                                <li>6. Nosql are suitable for hierarchical data to storage.</li>
                             </ul>
                         </h4>
                         <h3 className='text-lg mt-4'> 4. What is the purpose of jwt and how does it work.</h3>
                         <h4 className='text-lg'> <span >Answer: </span>
                             <ul className='font-thin'>
-                                <li>1. </li>
-                                <li>2. </li>
-                                <li>3. </li>
-                                <li>4. </li>
+                                <li>Purpose : JWT can be used as an access token to prevent unwanted access to a protected resource. They're often used as Bearer tokens, which the API will decode and validate before sending a response.
+                                </li>
+                                <li>How work : Each JWT contains encoded JSON objects, including a set of claims. JWTs are signed using a cryptographic algorithm to ensure that the claims cannot be altered after the token is issued.</li>
                             </ul>
                         </h4>
                     </div>
