@@ -18,7 +18,7 @@ import EmailVerification from './Pages/Login/EmailVerification/EmailVerification
 
 function App() {
   return (
-    <div className='flex flex-col items-center bg-sky-50'>
+    <div className='flex flex-col items-center bg-black'>
       <Header></Header>
       <div className='max-w-screen-2xl w-full min-h-screen'>
         <Routes>
@@ -26,7 +26,6 @@ function App() {
           <Route path="/home" element={<Home />} />
           <Route path="/blogs" element={<Blogs />} />
           <Route path="/about" element={<About />} />
-
 
           <Route path="/login" element={<Login></Login>}></Route>
           <Route path="/register" element={<Register></Register>}></Route>

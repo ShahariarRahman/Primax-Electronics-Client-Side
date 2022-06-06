@@ -26,7 +26,7 @@ const useInventory = () => {
                     console.log(data);
                     const newInventory = inventory.filter(item => item._id !== _id)
                     setInventory(newInventory);
-                    toast('Item Deleted Successfully!')
+                    toast('Item Successfully Deleted !')
                 }
             })
             .catch(error => console.log(error))

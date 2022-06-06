@@ -12,18 +12,18 @@ const ManageInventory = () => {
 
     return (
         <div className="mx-4 sm:mx-0">
-            <div className="py-1 sm:px-4 lg:px-6 flex flex-col items-center">
-                <h2 className='my-4 text-2xl'>Manage Inventory ({inventory.length})</h2>
-                <div className="shadow overflow-hidden border-b border-gray-200 rounded-lg">
+            <div className="sm:px-4 lg:px-6 flex flex-col items-center bg-black">
+                <h2 className='my-5 text-3xl font-bold text-rose-100 border-b-2 border-rose-900'>Manage Inventory ({inventory.length})</h2>
+                <div className="shadow overflow-hidden border-b border-rose-200 rounded-lg">
                     <table className="table-fixed w-full">
-                        <thead className="bg-gray-50">
-                            <tr className="w-full px-6 py-4 bg-gray-200 text-left font-medium text-gray-800">
-                                <th className="w-full px-6 py-4">Product</th>
-                                <th className="w-full px-6 py-4 text-center">Information</th>
-                                <th className="w-full px-6 py-4 text-right">Update/Delete</th>
+                        <thead className="bg-black">
+                            <tr className="w-full px-6 py-4 bg-gray-900 text-left font-medium">
+                                <th className="w-full px-6 py-4 text-white">Product</th>
+                                <th className="w-full px-6 py-4 text-center text-white">Information</th>
+                                <th className="w-full px-6 py-4 text-right text-white">Update/Delete</th>
                             </tr>
                         </thead>
-                        <tbody className="bg-white">
+                        <tbody className="bg-gray-900">
                             {inventory.map(item => <ManageInventoryItem
                                 key={item._id}
                                 item={item}
@@ -34,7 +34,7 @@ const ManageInventory = () => {
                     </table>
                 </div>
                 <Link to='/additem'>
-                    <button className='w-48 h-10 bg-sky-600 hover:bg-sky-700 text-white text-md mb-28 mt-10 rounded-md py-2 font-semibold'>Add New Item</button>
+                    <button className='w-48 bg-rose-600 hover:bg-rose-700 text-white text-xl mb-28 mt-10 rounded-md py-2 font-semibold'>Add New Item</button>
                 </Link>
             </div>
         </div>
