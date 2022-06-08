@@ -1,4 +1,4 @@
-# Project : Primax Electronics
+# Primax Electronics
 
 ### Visit Website: [Client-Side](https://primax-electronics.web.app/) [Server Side](https://primax-electronics.herokuapp.com/)
 
