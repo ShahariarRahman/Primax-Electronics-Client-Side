@@ -12,7 +12,6 @@ This Project store many kind of Electronics items. In inventory there are Smart 
 * Also, the user can see details information about their stored products.
 
 ### Pages:
-* This website is a make for Professional Wedding Photographer. 
 * Homage: Homepage Contain Introduction of website, Top six inventory item  and a  Reviewing Form.
 * Login: In Login page used can log in using Google or Email Password System which secured by JSON Web Token.
 * Registration: In Registration page user can log in using Google or Email Password System which also secured by JSON Web Token.
