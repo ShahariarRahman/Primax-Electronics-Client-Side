@@ -6,7 +6,7 @@ const useInventory = () => {
 
 
     useEffect(() => {
-        fetch('https://primax-electronics.herokuapp.com/inventory')
+        fetch('https://primax-electronics-api.onrender.com/inventory')
             .then(res => res.json())
             .then(data => setInventory(data));
     }, []);
@@ -16,7 +16,7 @@ const useInventory = () => {
         if (!processed) {
             return;
         }
-        const url = `https://primax-electronics.herokuapp.com/inventory/${_id}`;
+        const url = `https://primax-electronics-api.onrender.com/inventory/${_id}`;
         fetch(url, {
             method: 'DELETE'
         })

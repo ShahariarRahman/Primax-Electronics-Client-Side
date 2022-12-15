@@ -9,7 +9,7 @@ const useToken = (user) => {
         if (!email) {
             return;
         }
-        const url = 'https://primax-electronics.herokuapp.com/login';
+        const url = 'https://primax-electronics-api.onrender.com/login';
         fetch(url, {
             method: 'POST',
             headers: { 'content-type': 'application/json' },

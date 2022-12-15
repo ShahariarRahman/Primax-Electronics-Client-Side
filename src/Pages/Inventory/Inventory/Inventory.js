@@ -34,7 +34,7 @@ const Inventory = () => {
             return;
         }
         const newQuantity = +preQuantity - 1;
-        const url = `https://primax-electronics.herokuapp.com/inventory?id=${id}&quantity=${newQuantity}`
+        const url = `https://primax-electronics-api.onrender.com/inventory?id=${id}&quantity=${newQuantity}`
         fetch(url, {
             method: 'PUT'
         })
@@ -56,7 +56,7 @@ const Inventory = () => {
             return;
         }
         const newQuantity = +preQuantity + numberOfNewProduct;
-        const url = `https://primax-electronics.herokuapp.com/inventory?id=${id}&quantity=${newQuantity}`
+        const url = `https://primax-electronics-api.onrender.com/inventory?id=${id}&quantity=${newQuantity}`
         fetch(url, {
             method: 'PUT'
         })

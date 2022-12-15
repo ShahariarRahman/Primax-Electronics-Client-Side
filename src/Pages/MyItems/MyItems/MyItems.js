@@ -18,7 +18,7 @@ const MyItems = () => {
     }, []);
 
     useEffect(() => {
-        const url = `https://primax-electronics.herokuapp.com/myitem?email=${user?.email}`;
+        const url = `https://primax-electronics-api.onrender.com/myitem?email=${user?.email}`;
         fetch(url, {
             headers: { authorization: `Bearer ${localStorage.getItem('Primax-Electronics-Access-Token')}` }
         })

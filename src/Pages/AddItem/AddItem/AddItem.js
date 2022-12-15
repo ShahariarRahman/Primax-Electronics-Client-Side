@@ -37,7 +37,7 @@ const AddItem = () => {
 
         const inventoryItem = { name, supplier, email, price, quantity, img, description, date };
 
-        fetch('https://primax-electronics.herokuapp.com/inventory', {
+        fetch('https://primax-electronics-api.onrender.com/inventory', {
             method: 'POST',
             headers: { 'content-type': 'application/json' },
             body: JSON.stringify(inventoryItem)
